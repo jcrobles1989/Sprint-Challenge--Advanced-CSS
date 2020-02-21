@@ -1,10 +1,7 @@
 // Navigation code here
 
 .navigation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .column-justify-align();
     height: 15vh;
     background-color: @wild-sand;
     border: @sea-shell solid 2px;
@@ -15,8 +12,7 @@
     }//this closes the h1
 
     nav{
-        display: flex;
-        justify-content: space-between;
+        .space-between();
         width: 30%;
 
         a{
