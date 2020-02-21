@@ -1,1 +1,25 @@
 // Mixins Here
+
+.column-justify-align(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-reverse-space-between(){
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.space-between(){
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-style(@width, @height, @font-size){
+    width: @width;
+    height: @height;
+    font-size: @font-size;
+}

@@ -1,1 +1,28 @@
 // Navigation code here
+
+.navigation{
+    .column-justify-align();
+    height: 15vh;
+    background-color: @wild-sand;
+    border: @sea-shell solid 2px;
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 2%;
+    }//this closes the h1
+
+    nav{
+        .space-between();
+        width: 30%;
+
+        @media @phone{
+            width: 80%;
+        }
+
+        a{
+            font-size: 16px;
+            text-decoration: none;
+            color: @river-bend;
+        }//this closes the links in the nav
+    }//this closes the nav
+}//this closes the navigation
